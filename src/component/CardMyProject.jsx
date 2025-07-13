@@ -24,7 +24,7 @@ export const CardMyProject = ({
       transition={{ duration: 0.5, ease: "easeOut" }}
     >
       <div
-        className="flex flex-col h-full border-2 border-[#1A1A1A] rounded-xl p-6 gap-4
+        className="flex flex-col h-full border-2 border-[#1A1A1A] items-center rounded-xl p-6 gap-4
       max-[350px]:p-4"
       >
         <picture>

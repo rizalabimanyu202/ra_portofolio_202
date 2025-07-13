@@ -30,14 +30,14 @@ const AboutMe = () => {
           TENTANG AKU
         </p>
         <div
-          className="flex flex-col bg-cover gap-10 
+          className="flex flex-col bg-cover gap-10
       max-[430px]:gap-6
       lg:flex-row
       lg:gap-5
       xl:gap-20"
         >
           <motion.div
-            className="flex bg-green-300/0 w-[100%]
+            className="flex bg-green-300/0 w-[100%] justify-center
         lg:w-[40%]
         xl:w-[30%]"
             ref={ref}
@@ -65,7 +65,7 @@ const AboutMe = () => {
             </picture>
           </motion.div>
           <motion.div
-            className="bg-blue-300/0 w-[100%] flex m-auto
+            className="bg-blue-300/0 w-[100%] flex m-auto justify-center
         lg:w-[60%]
         xl:w-[70%]"
             ref={ref}
